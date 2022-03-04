@@ -1,0 +1,7 @@
+How to connect from windows 10 to aws ec2 instance via ssh withouth putty
+
+ssh -i C:\Users\test\Desktop\python\ec2_key\ec2_key1.pem ec2-user@3.134.95.178
+
+-i: means indetity 
+location of private key downloaded from ec2 created instace: C:\Users\test\Desktop\python\ec2_key\ec2_key1.pem 
+user and public IP: ec2-user@3.134.95.178
