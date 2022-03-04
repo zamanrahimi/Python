@@ -1,11 +1,7 @@
-# how to connect Python to mysql
-import mysql.connector
+import psycopg2
 
-con = mysql.connector.connect(
-host="localhost", user="root", password="", database="python"
-)
-
-cr = con.cursor()
-
-
-
+conn = psycopg2.connect(
+    host="localhost",
+    database="python",
+    user="postgres",
+    password="123456")
