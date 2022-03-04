@@ -1,0 +1,8 @@
+If you face this error when connecting to aws via CLI
+
+An error occurred (SignatureDoesNotMatch) when calling the ListUsers operation: Signature not yet current: 20220304T195411Z is still later than 20220304T070907Z (20220304T065407Z + 15 min.)
+
+then, go to windows date and time and, on the following options
+
+set time automatically 
+set time zone autmatically 
